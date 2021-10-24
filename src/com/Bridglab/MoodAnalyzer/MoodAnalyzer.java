@@ -1,9 +1,7 @@
 package com.Bridglab.MoodAnalyzer;
+
 public class MoodAnalyzer {
     private String message;
-
-    public MoodAnalyzer() {
-    }
 
     public MoodAnalyzer(String message) {
         this.message = message;
@@ -22,6 +20,5 @@ public class MoodAnalyzer {
             else
                 throw new MoodAnalysisException("Invalid Mood", MoodAnalysisException.Exception_Type.EMPTY);
         }
-   
     }
 }
